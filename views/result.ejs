@@ -1,0 +1,13 @@
+<h1>Result Page</h1>
+<div class="container">
+	<% data["Search"].forEach(function(dat){ %>
+	<div class="row">
+		<div class="col-md-4 thumbnail">
+			<img src="<%= dat["Poster"] %>">
+			<h3><%= dat["Title"] %> -- <%= dat["Year"] %></h3>
+		</div>
+	</div>
+
+	
+<% }) %>
+</div>
