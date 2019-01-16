@@ -1,5 +1,5 @@
 # movie
-this is img assignment app for run this app:
+for run this app:
 
     install node js
     install mongodb
